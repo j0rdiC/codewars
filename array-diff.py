@@ -2,7 +2,8 @@
 # https://www.codewars.com/kata/523f5d21c841566fde000009
 
 def array_diff(a, b):
-    pass
+    return [n for n in a if n not in b]
+
 
 array_diff([1,2], [1])#, [2], "a was [1,2], b was [1], expected [2]"
 array_diff([1,2,2], [1])#, [2,2], "a was [1,2,2], b was [1], expected [2,2]"
