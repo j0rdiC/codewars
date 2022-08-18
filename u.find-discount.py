@@ -3,11 +3,13 @@
 
 
 def find_discounted(prices):
-    for n in prices:
-        pass
+    for n in [int(n) for n in prices.split()]:
+        
 
 
+find_discounted("15 20 60 75 80 100")
 test = "15 20 60 75 80 100" #,"15 60 75")
+
 
 n = 16
 def per(n):
